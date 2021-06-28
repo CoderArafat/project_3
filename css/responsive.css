@@ -1,0 +1,635 @@
+/* DEFOLT CSS  */
+.check {
+	display: none;
+}
+.responbar{
+    display: none;
+}
+.topHeader {
+	padding: 0px 10px;
+	z-index: 1;
+}
+
+/* 1400 px ER HIGH  */
+@media (max-width:1400px){
+    /* TESTIAMORNIALS PART  */
+    .testimonialwrap .testimonialbottom {
+        padding: 0px 30px;
+    }
+    /* TOP HEADER  */
+    .topHeader {
+        padding: 0px 10px;
+    }
+    /* BANNER PART  */
+    .banner .bannerConten {
+        padding-top: 142px;
+    }
+      /* ============ABOUT PAGE ============= */
+    /* FETURE PART  */
+    .feture {
+        padding-top: 95px;
+    }
+    .feture {
+        padding-bottom: 21px;
+    }
+
+    /* ============BLOG PAGE =============== */
+    /* NEWS PART  */
+    .news {
+        padding-top: 100px;
+    }
+    
+}
+/* 1200 px ER HIGH  */
+@media (max-width:1200px){
+    /* TOP HEAEDR  */
+    .header .logo {
+        width: 160px;
+    }
+    .header .menu {
+        width: 336px;
+    }
+    .header .num {
+        width: 200px;
+    }
+    .header .logo {
+        width: 160px;
+        padding-left: 15px;
+    }
+    .header .socialmenu {
+        padding-right: 20px;
+    }
+    /* COUNTER PART  */
+    .container {
+        width: 100%;
+    }
+    .counterWrap {
+        padding: 0px 24px;
+    }
+    .counteritem .countright h2 i {
+        right: 51px;
+        top: -3px;
+    }
+    .counteritem .countright h2 {
+        font-size: 15px;
+        padding-left: 22px;
+    }
+    /* BANNER PART  */
+    .banner .bannerConten {
+        padding-top: 120px;
+    }
+    .banner .bannerConten h2 {
+        font-size: 45px;
+        line-height: 45px;
+        margin-bottom: 15px;
+    }
+    .banner .bannerConten p {
+        margin-bottom: 20px;
+    }
+    /* FETURE PART  */
+    .feture {
+        padding: 50px 48px;
+    }
+    /* BUSINESS PART  */
+    .businesswrap .businessbottom {
+        padding: 0px 32px;
+    }
+    .newsitem {
+        width: 31.33%;
+        margin-right: 11px;
+    }
+    .newsbottom {
+        padding: 0px 30px;
+    }
+    /* FOOTER PART  */
+    .footer {
+        padding: 50px 25px;
+    }
+  
+
+}
+/* 992 px ER HIGH  */
+@media (max-width:992px){
+    /* TOP HEADER PART  */
+    .header {
+        /* padding: 70px 0px; */
+        height: 49px;
+        line-height: 66px;
+    }
+    .header .socialmenu {
+        display: none;
+        text-align: center;
+        width: 100%;
+    }
+    .header .num {
+        display: none;
+    }
+    .header .menu ul {
+        padding-left: 0px;
+        list-style-type: none;
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+    }
+
+    /* RESPONSIVE MENU  */
+    .check {
+        display: block;
+        /* text-align: right; */
+        width: 40px;
+        float: right;
+        height: 40px;
+        padding: 10px;
+        cursor: pointer;
+        opacity: 0;
+        position: absolute;
+        top: 13px;
+        right: 42px;
+        z-index: 15;
+    }
+    .responbar {
+        display: block;
+        float: right;
+        position: absolute;
+        top: 14px;
+        right: 47px;
+        font-size: 38px;
+    }
+    .check:checked ~ .socialmenu {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .check:checked ~ ul {
+        opacity: 1;
+        visibility: visible;
+        height: 145px;
+    }
+    .header .menu ul  {
+        transition: all .6s ease-in-out;
+    }
+    .header .menu ul li {
+        display: block;
+        line-height: 37px;
+        text-align: left;
+        transition: all .6s ease-in-out;
+    }
+    .header .menu {
+        width: 100%;
+    }
+    .topHeader {
+        background-color: rgba(28, 27, 27, 0.6) !important;
+        z-index: 999;
+    }
+    /* BANNER PART  */
+    .container {
+        width: 100%;
+    }
+    .banner {
+    height: 90vh;  
+    }
+    .banner .bannerConten {
+        padding-top: 150px;
+    }
+    .banner .bannerConten h2 {
+        font-size: 35px;
+        margin-bottom: 21px;
+        line-height: 38px;
+    }
+    .banner .bannerConten p {
+        font-size: 15px;
+        margin-bottom: 23px;
+    }
+
+    /* SERVICES PART  */
+    .serTitle h2 {
+        font-size: 26px;
+        padding-bottom: 7px;
+    }
+    .serTitle p {
+        font-size: 14px;
+    }
+    .serItem {
+        padding: 0px 40px;
+    }
+    .serItem .seritemcon {
+        padding: 25px 20px;
+    }
+    .serItem .seritemcon i {
+        font-size: 30px;
+        padding-bottom: 12px;
+    }
+    .serItem .seritemcon h2 {
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+    .serItem .seritemcon p {
+        font-size: 13px;
+        color: #191919b3;
+        transition: all .8s ease-in-out;
+    }
+    /* COUNTER PART  */
+    .counteritem {
+        width: 50%;
+        margin-bottom: 35px;
+    }
+    .counteritem .countright h2 {
+        font-size: 18px;
+        padding-left: 0px;
+    }
+    .counteritem .countright h2 i {
+        top: 0px;
+        left: 50px;
+    }
+    /* FETURE PART  */
+    .feturewrap .fetureLeft h2 {
+        font-size: 19px;
+        font-weight: 600;
+        margin-bottom: 11px;
+    }
+    .feturewrap .fetureLeft .btn {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+    .feturewrap .fetureLeft p {
+        font-size: 16px;
+        line-height: 53px;
+        font-weight: 400;
+    }
+    .feturewrap .fetureright img {
+        padding: 10px 18px;
+        height: 386px;
+    }
+    .feturewrap .fetureright i {
+        bottom: 202px;
+        left: 0px;
+    }
+    /* BUSINESS PART  */
+    .businesswrap .businesstop h2 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .businesswrap .businessbottom {
+        bottom: -125px;
+    }
+    .businessbottomitem {
+        padding: 40px 16px;
+    }
+    .businessbottomitem i {
+        font-size: 26px;
+        padding-bottom: 11px;
+    }
+    .businessbottomitem h2 {
+        font-size: 17px;
+        padding-bottom: 13px;
+    }
+    .businessbottomitem p {
+        font-size: 14px;
+        padding-bottom: 14px;
+    }
+    /* TESTAMORNIYAL PART  */
+    .testimonialwrap .testimonialbottom .testimonialbottomitm .testimonialitmtop {
+        font-size: 13px;
+    }
+    .testimonialitmbottom .testapersonright h4 {
+        font-size: 14px;
+        padding-bottom: -2px;
+    }
+    .testimonialitmbottom .testapersonright {
+        padding-top: 19px;
+    }
+    /* TEAM PART  */
+    .teambotm .teambotmitm {
+        padding: 22px 10px;
+    }
+    /* NEWS PART  */
+    .newsitmcontent h2 {
+        padding: 8px 0px;
+    }
+    .newsitmcontent h2 a {
+        font-size: 14px;
+        line-height: 0px !important;
+    }
+    .newsitmcontent {
+        padding: 20px;
+    }
+    /* FOOTER PART  */
+    .footeritem h6 {
+        font-size: 16px;
+        padding: 12px 0px;
+        line-height: 28px;
+    }
+    .footeritem h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .fsocialmenu ul li a {
+        font-size: 15px;
+        padding: 0px 0px;
+        width: 33px;
+        height: 33px;
+        background-color: #ddd;
+        text-align: center;
+        line-height: 33px;
+        border-radius: 50%;
+        transition: .5s ease-in-out;
+    }
+    .fcon {
+        font-size: 15px;
+    }
+    .footeritem h5 {
+        font-size: 14px;
+    }
+
+}
+/* 768 px ER HIGH  */
+@media (max-width:768px){
+    /* BANNER PART  */
+    .banner {
+        height: 80vh;
+    }
+    .banner .bannerConten {
+        padding-top: 100px;
+    }
+    .banner .bannerConten h2 {
+        font-size: 20px;
+        margin-bottom: 7px;
+        line-height: 22px;
+    }
+    .banner .bannerConten p {
+        font-size: 11px;
+        margin-bottom: 19px;
+    }
+    /* SERVICES PART  */
+    .serTitle h2 {
+        font-size: 22px;
+        padding-bottom: 5px;
+    }
+    .serTitle p {
+        font-size: 11px;
+    }
+    .serItem .seritemcon {
+        width: 50%;
+    }
+    /* FETURE PART  */
+    .feturewrap .fetureLeft {
+        width: 100%;
+    }
+    .feturewrap .fetureright {
+        width: 100%;
+    }
+    .feturewrap .fetureright img {
+        padding: 10px 0px;
+        height: 386px;
+    }
+    .feturewrap .fetureright i {
+        bottom: 196px;
+        left: -17px;
+    }
+    /* BUSINESS PART  */
+    .businesswrap .businesstop h2 {
+        font-size: 17px;
+        line-height: 17px;
+    }
+    /* TESTAMORNIAL PART  */
+    .testimonialwrap .testimonialbottom .testimonialbottomitm {
+        width: 100%;
+    }
+    /* TEAM PART  */
+    .teambotm .teambotmitm {
+        padding: 30px 0px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .teambotmitm img {
+
+        width: 50%;
+    }
+    /* NEWS PART  */
+    .newsitem {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    /* PROJECT PART  */
+    .projectContent h2 {
+        font-size: 25px;
+        padding-bottom: 11px;
+    }
+    .projectContent p {
+        font-size: 14px;
+        padding-bottom: 34px;
+    }
+    .projectContent a {
+        padding: 10px 15px;
+        font-size: 13px;
+    }
+    /* footer PART  */
+    .footeritem {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .fsocialmenu ul li a {
+        font-size: 15px;
+        padding: 0px 0px;
+        width: 45px;
+        height: 45px;
+        background-color: #ddd;
+        text-align: center;
+        line-height: 45px;
+        border-radius: 50%;
+        transition: .5s ease-in-out;
+    }
+
+
+    /* =============ABOUT PAGE========== */
+    /* BANNER PART  */
+    .feture {
+        padding: 69px 48px;
+    }
+    .planitem {
+        width: 100%;
+    }
+    
+    
+
+}
+/* 576 px ER HIGH  */
+@media (max-width:576px){
+    /* MENU  */
+    .header {
+        /* padding: 70px 0px; */
+        height: 49px;
+        line-height: 61px;
+    }
+    /* BANNER PART  */
+    .banner {
+        height: 50vh;
+    }
+    .banner .bannerConten {
+        padding-top: 80px;
+    }
+    .banner .bannerConten h2 {
+        font-size: 16px;
+        margin-bottom: 4px;
+        line-height: 18px;
+    }
+    .btn {
+        padding: 6px 10px;
+        font-size: 13px;
+    }
+    /* SERVICES PART  */
+    .serTitle h2 {
+        font-size: 14px;
+        padding-bottom: 4px;
+    }
+    .serTitle p {
+        font-size: 14px;
+        width: 400px;
+        margin: 0 auto;
+    }
+    .serItem .seritemcon {
+        padding: 10px 20px;
+    }
+    .serItem .seritemcon {
+        width: 100%;
+    }
+    .serItem .seritemcon i {
+        font-size: 40px;
+    }
+    .serItem .seritemcon h2 {
+        font-size: 16px;
+        padding-bottom: 7px;
+    }
+    .serTitle p {
+        font-size: 12px;
+        width: 280px;
+        margin: 0 auto;
+        padding: 0px 10px;
+    }
+    .serItem .seritemcon {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    /* COUNTER PART  */
+    .counteritem {
+        width: 100%;
+        text-align: center;
+    }
+    .counteritem .countleft {
+        width: 50%;
+    }
+    .counteritem .countright {
+        width: 50%;
+    }
+    .counteritem .countleft h2 {
+        text-align: right;
+    }
+    .counteritem .countright h2 {
+        padding-left: 10px;
+        text-align: left;
+    }
+    /* FETURE PART  */
+    .feturewrap .fetureLeft {
+        margin-bottom: 25px;
+    }
+    .feturewrap .fetureLeft h2 {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .feturewrap .fetureLeft p {
+        font-size: 14px;
+        line-height: 35px;
+    }
+    .feturewrap .fetureright img {
+        padding: 10px 0px;
+        height: 386px;
+        width: 100%;
+    }
+    .feturewrap .fetureright i {
+        bottom: 200px;
+        left: -15px;
+    }
+    /* BUSINESS PART  */
+    .businesswrap .businessbottom {
+        position: initial;
+    }
+    .businesswrap .businesstop {
+        color: #fff;
+        padding-bottom: 30px;
+    }
+    .businessbottomitem {
+        width: 100%;
+        margin-bottom: 30px;
+        margin-left: 0px;
+    }
+    .businesswrap .businesstop h2 {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    /* TESTAMORNIAL PART  */
+    .testimonialwrap .testimonialbottom {
+        padding: 0px 0px;
+    }
+    .testimonialitmbottom .testapersonright h4 {
+        font-size: 9px;
+        padding-bottom: 0px;
+    }
+    .testimonialitmbottom .testapersonright span {
+        font-size: 10px;
+        color: #08f;
+    }
+    /* TEAM PART  */
+    .teamtop h2 {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+    .teamtop p {
+        font-size: 14px;
+        padding-bottom: 25px;
+    }
+    .teambotmitm a {
+        text-decoration: none;
+        color: #191919;
+        font-size: 17px;
+        padding: 3px 0px;
+        display: block;
+        font-weight: 600;
+    }
+    .teambotmitm p {
+        font-size: 11px;
+        padding: 7px 0px;
+    }
+    .teamsociaimenu ul li a {
+        width: 40px;
+        height: 33px;
+        line-height: 33px;
+        font-size: 15px;
+    }
+    /* NEWS PART  */
+    .newstop p {
+        font-size: 14px;
+        padding-bottom: 23px;
+    }
+    .newstop h2 {
+        font-size: 22px;
+    }
+    /* PROJECT PART  */
+    .project {
+        padding: 50px 0px;
+    }
+    .projectContent h2 {
+        font-size: 19px;
+        padding-bottom: 7px;
+    }
+    .projectContent p {
+        font-size: 12px;
+        padding-bottom: 20px;
+    }
+    .projectContent a {
+        padding: 6px 10px;
+        font-size: 11px;
+    }
+
+
+
+}
